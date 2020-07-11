@@ -70,8 +70,9 @@ body {
  * Header
  */
 .masthead-brand {
-  margin-top: 10px;
-  margin-bottom: 10px;
+/*   margin-top: 10px; */
+/*   margin-bottom: 10px; */
+  margin: auto;
 }
 
 .nav-masthead {
@@ -109,7 +110,7 @@ body {
 .cover-heading {
   font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: 10px;
+  letter-spacing: 0;
   font-size: 2rem;
   margin-bottom: 5rem;
 }
@@ -133,6 +134,7 @@ body {
   color: #999;
   /* IE8 proofing */
   color: rgba(255, 255, 255, 0.5);
+  margin-top: 50px;
 }
 
 /*
@@ -194,4 +196,20 @@ body {
   .cover-container {
     width: 1060px;
   }
+}
+
+
+.masthead > .inner {
+    height: 300px;
+}
+
+.masthead-brand {
+    display: grid;
+    height: 200px;
+    width: 200px;    
+    align-content: start;
+    justify-content: center;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,212,255,0) 55%);
+    background-position-y: -19px;
 }
