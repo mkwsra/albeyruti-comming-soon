@@ -22,7 +22,8 @@
                         <img src="img/Logo-name.png" width="94"/>
                     </div>
                     <nav class="nav nav-masthead">
-                        <a class="nav-link nav-social" href="https://www.facebook.com/beyruti.kitab/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a class="nav-link nav-social" href="https://www.facebook.com/beyruti.kitab/"><i class="fa fa-facebook"
+                                                                                                         aria-hidden="true"></i></a>
                         <a class="nav-link nav-social" href="https://www.twitter.com/beyruti.kitab/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                         <a class="nav-link nav-social" href="tel:00905356502249"><i class="fa fa-phone" aria-hidden="true"></i></a>
                         <a class="nav-link nav-social" href="mailto:beyruti.kitab@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
@@ -57,17 +58,19 @@
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
-                        <div class="modal-body">
-                            <form>
+                        <form action="emails.php">
+                            <div class="modal-body">
                                 <div class="form-group">
-                                    <label dir="rtl" for="recipient-name" class="form-control-label">أدخل البريد الالكتروني ليتم إعلامك بموعد افتتاح الموقع</label>
-                                    <input type="text" class="form-control" id="recipient-name" placeholder="your-name@example.com">
+                                    <label dir="rtl" for="recipient-name" class="form-control-label">أدخل البريد الالكتروني ليتم إعلامك بموعد افتتاح
+                                        الموقع</label>
+                                    <input type="text" class="form-control" name="email" id="recipient-name" placeholder="your-name@example.com">
                                 </div>
-                            </form>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default">سجل</button>
-                        </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="submit" class="btn btn-default">سجل</button>
+                            </div>
+                        </form>
+
                     </div>
                 </div>
             </div>
